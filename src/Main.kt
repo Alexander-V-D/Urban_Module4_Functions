@@ -8,7 +8,7 @@ fun main() {
 fun exponentiation(a: Double, n: Double) = a.pow(n)
 
 //Функция для задачи 2
-fun sumInterval(a: Int, b: Int): Int {
+fun multiplicationOfInterval(a: Int, b: Int): Int {
     var sum = a
     for (i in a + 1..b) {
         sum *= i
